@@ -1,0 +1,23 @@
+h4{
+    display: inline;
+    color:rgb(21, 4, 63);
+    padding-right: 40px;
+    padding-left: 30px;
+}
+img{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+#signId{
+    color:rgb(7, 207, 74);
+    text-decoration: none;
+}
+#prodId,#appId,#desId,#suppId,#compId{
+    text-decoration: none;
+
+}
+h3{
+    display: inline;
+    color:rgb(7, 207, 74);
+    padding-left: 400px;
+}

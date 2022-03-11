@@ -1,0 +1,27 @@
+h4{
+    display: inline;
+    color:rgb(21, 4, 63);
+    padding-right: 40px;
+    padding-left: 30px;
+}
+#footimg{
+    padding-left: 15px;
+    padding-top: 30px;
+    width: 50px;
+    
+}
+
+#aboutId,#careerId,#investId,#mediaId,#contactId,#subscribeId{
+    text-decoration: none;
+
+}
+
+#footdiv1{
+    background-color: rgba(49, 224, 128, 0.856);
+    height: 250px;
+}
+    
+#footpara{
+       float: right;
+   
+}
