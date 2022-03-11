@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SBTier_semiconductor/static/css/main.34f34761.css",
+    "main.js": "/SBTier_semiconductor/static/js/main.65dc7e32.js",
+    "static/js/787.f92f5348.chunk.js": "/SBTier_semiconductor/static/js/787.f92f5348.chunk.js",
+    "index.html": "/SBTier_semiconductor/index.html",
+    "main.34f34761.css.map": "/SBTier_semiconductor/static/css/main.34f34761.css.map",
+    "main.65dc7e32.js.map": "/SBTier_semiconductor/static/js/main.65dc7e32.js.map",
+    "787.f92f5348.chunk.js.map": "/SBTier_semiconductor/static/js/787.f92f5348.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34f34761.css",
+    "static/js/main.65dc7e32.js"
+  ]
+}
