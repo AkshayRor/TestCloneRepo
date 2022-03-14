@@ -48,7 +48,71 @@ class Home extends React.Component{
             </Routes>
 
         </div>
+        <div d="imgdiv">
+            <img id="secimg" src="img2.jpg"/>
+        </div>
+        <div>
+            <center><h1>Together, we accelerate the breakthroughs that advance<br/>our world.</h1></center>
+            <div id="itemsdiv">
+            <span id="autospan">&#128664;</span>
+            <p id="autopara">AUTOMOBILE</p>
+
+            <span id="comspan">&#128225;</span>
+            <p id="compara">COMMUNICATION INFRASTRUCTURE</p>
+
+            <span id="induspan">&#128736;</span>
+            <p id="induspara">INDUSTRIAL</p><br/></div>
+
+            <div id='itemsdiv2'>
+            <span id="mobilespan">&#128241;</span>
+            <p id="mobilepara">MOBILE</p>
+
+            <span id="smartcityspan">&#127961;</span>
+            <p id="smartcitypara">SMART CITY</p>
+
+            <span id="smarthomespan">&#127984;</span>
+            <p id="smarthomepara">SMART HOME</p>
+
+            </div>
+        </div>
+       
+        <center><h1>True innovation requires a big toolkit.</h1></center>
+        <div id="div3">
+        <span class="exspan">
+        <p><b>&nbsp;&nbsp;Product Finders</b></p>
+        <p id="prpara">Choose the right product, quickly, with our <br/>selection of product finding tools: Product 
+            <br/>Advisor, Product Selector and Cross Reference.</p>
+        </span>
+
+        <span class="exspan">
+        <p><b>&nbsp;&nbsp;Software Center</b></p>
+        <p id="prpara">Search our catalog of commercial-grade <br/>software, royalty-free demonstration <br/>software and code samples.</p>
+        </span>
+
+        <span class="exspan">
+        <p><b>&nbsp;&nbsp;SBTier Designs</b></p>
+        <p id="prpara">Explore reference designs and system <br/>solutions to jump start your design and get<br/> to production faster.</p>
+        </span>
+
+        <span class="ex2span">
+        <p><b>&nbsp;&nbsp;Evaluation and Development Boards</b></p>
+        <p id="prpara">Find quick links to dozens of tools and resources <br/> that help you save time and reduce<br/>  design complexity.</p>
+        </span>
+
+        <span class="ex2span">
+        <p><b>&nbsp;&nbsp;Community</b></p>
+        <p id="prpara">Join our open forum with thousands of <br/>on-going technical discussions moderated by<br/> SBTier experts.</p>
+        </span>
+
+        <span class="ex2span">
+        <p><b>&nbsp;&nbsp;Training</b></p>
+        <p id="prpara">Take your technical expertise further with<br/> online and hands-on instruction designed to<br/> unlock the potential of our products.</p>
+        </span>
+
+
+        </div>
         </Router>
+        
     );
 }
 }

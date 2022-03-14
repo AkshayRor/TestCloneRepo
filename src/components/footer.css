@@ -11,17 +11,23 @@ h4{
     
 }
 
-#aboutId,#careerId,#investId,#mediaId,#contactId,#subscribeId{
+#aboutId,#careerId,#mediaId,#contactId,#subscribeId{
     text-decoration: none;
 
 }
+#aboutId:hover,#careerId:hover,#mediaId:hover,
+#contactId:hover,#subscribeId:hover{
+    color:rgb(3, 51, 18);
+}
 
 #footdiv1{
-    background-color: rgba(49, 224, 128, 0.856);
+    background-color: rgba(134, 146, 172, 0.342);
     height: 250px;
 }
     
 #footpara{
        float: right;
+       color:rgb(9, 63, 7);
+       font-weight: bold;
    
 }
