@@ -111,6 +111,37 @@ class Home extends React.Component{
 
 
         </div>
+        <div>
+            <span id="firstspan">
+                <h2>A Smarter World<br/>Will Be More<br/>Sustainable</h2>
+                <p id="paras">As our digitally-enhanced world is<br/>
+                evolving to anticipate and automate<br/>
+                people's needs, SBTier strives to engage,<br/>
+                protect and respect our relationship with <br/>
+                the wider world.</p>
+                <p id="suspara">SUSTAINABILITY</p>
+            </span>
+            <span id="secondspan">
+                <h2>Join the Future of <br/>Innovation</h2>
+                <p id="paras">SBTier employees embrace new <br/>
+                technologies and seize opportunities to <br/>
+                advance our world. We encourage<br/>
+                 passionate, talented people looking for <br/>
+                 the freedom to innovate to come join our <br/>
+                 team.</p>
+                <p id="suspara">CAREERS</p>
+            </span>
+            <span id="thirdspan">
+            <h2>Long-Term Success<br/>Through R&amp;D<br/>
+                Investment </h2>
+                <p id="paras">Our focus is to invest in system solutions <br/>
+                that will drive long-term, profitable growth, <br/>
+                superior free cash and robust capital to <br/>
+                owners.</p>
+                <p id="suspara">INVESTOR RELATIONS</p>
+                
+            </span>
+        </div>
         </Router>
         
     );

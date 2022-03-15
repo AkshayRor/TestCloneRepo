@@ -75,3 +75,31 @@ margin-right: 20px;
     margin-bottom: 40px;
     
 }
+#firstspan,#secondspan,#thirdspan{
+
+    display:inline-block;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+#firstspan{
+    background-color: #c2bdf5;
+}
+#secondspan{
+    background-color: rgb(144, 247, 221);
+}
+#thirdspan{
+    background-color: rgb(193, 243, 136);
+}
+#suspara{
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 100px;
+}
+#paras{
+    margin: 15px;
+}
+h2{
+    text-align: center;
+}
