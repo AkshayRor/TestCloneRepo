@@ -9,8 +9,10 @@ import Company from './company';
 import SignInForm from './signinform';
 import Register from "./register";
 import './home.css';
+import $ from 'jquery';
 
 class Home extends React.Component{
+    
     render(){
     return(
         <Router>
@@ -33,8 +35,15 @@ class Home extends React.Component{
             <h4>
                 <Link id="compId" to='/company'>COMPANY</Link>    
             </h4>
-            <h3>
-                <Link id="signId" to='/signinform'>SIGN IN</Link>                
+            <h3 id="signinh">
+                <Link id="signId" to='/signinform' onClick={() => { 
+                    
+                    $('#secimg').css('display','none');
+                    $('#togdiv').css('display','none');
+                    $('#div3').css('display','none');
+                    $('#div4').css('display','none');
+
+                    }}>SIGN IN</Link>                
             </h3>
             <Routes>
                     <Route exact path='/products' element={< Products />}></Route>
@@ -48,10 +57,10 @@ class Home extends React.Component{
             </Routes>
 
         </div>
-        <div d="imgdiv">
+        <div id="imgdiv">
             <img id="secimg" src="img2.jpg"/>
         </div>
-        <div>
+        <div id="togdiv">
             <center><h1>Together, we accelerate the breakthroughs that advance<br/>our world.</h1></center>
             <div id="itemsdiv">
             <span id="autospan">&#128664;</span>
@@ -76,8 +85,9 @@ class Home extends React.Component{
             </div>
         </div>
        
-        <center><h1>True innovation requires a big toolkit.</h1></center>
+        
         <div id="div3">
+        <center><h1>True innovation requires a big toolkit.</h1></center>
         <span class="exspan">
         <p><b>&nbsp;&nbsp;Product Finders</b></p>
         <p id="prpara">Choose the right product, quickly, with our <br/>selection of product finding tools: Product 
@@ -111,7 +121,7 @@ class Home extends React.Component{
 
 
         </div>
-        <div>
+        <div id="div4">
             <span id="firstspan">
                 <h2>A Smarter World<br/>Will Be More<br/>Sustainable</h2>
                 <p id="paras">As our digitally-enhanced world is<br/>
@@ -142,6 +152,7 @@ class Home extends React.Component{
                 
             </span>
         </div>
+        
         </Router>
         
     );

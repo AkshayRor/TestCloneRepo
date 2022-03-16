@@ -4,7 +4,10 @@ import './signinform.css';
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import Register from "./register";
 
+
+
 class SignInForm extends React.Component{
+    
     render(){
     return(
 
@@ -34,6 +37,6 @@ class SignInForm extends React.Component{
         </form>
         
     );
-    }
+}
 }
 export default SignInForm;

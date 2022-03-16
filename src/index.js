@@ -6,6 +6,9 @@ import Home from './components/home';
 import reportWebVitals from './reportWebVitals';
 //import Registration from './components/registrationform';
 import Footer from './components/footer';
+import $ from 'jquery';
+//import jquery from 'jquery';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +22,13 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('foot')
 );
+
+
+  $("#signId").onClick(function(){
+    alert("sign clicked");
+  $("#secimg").css('display','none');
+  });
+ 
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
